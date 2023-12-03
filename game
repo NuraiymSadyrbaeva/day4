@@ -1,0 +1,35 @@
+print("Willkommen in der Abenteuer-Simulation!")
+print("Du stehst vor einem dunklen, mysteriösen Wald.")
+print("Du hörst ein seltsames Geräusch hinter den Bäumen.")
+
+print("Was wirst du tun?")
+print("1. In den Wald gehen.")
+print("2. Umkehren und nach Hause gehen.")
+
+choice1 = input("Deine Wahl (1/2): ")
+
+if choice1 == '1':
+    print("Du betrittst den Wald und hörst ein lautes Brüllen!")
+    print("Was wirst du tun?")
+    print("1. Wegrennen.")
+    print("2. Dem Geräusch nachgehen.")
+
+    choice2 = input("Deine Wahl (1/2): ")
+
+    if choice2 == '1':
+        print("Du rennst davon und entkommst knapp einem wilden Bären!")
+        print("Glückwunsch, du hast überlebt!")
+
+    elif choice2 == '2':
+        print("Du gehst dem Geräusch nach und entdeckst... ein schnarchendes Eichhörnchen!")
+        print("Es scheint, als hättest du ein Abenteuer mit einem kleinen Eichhörnchen erlebt.")
+
+    else:
+        print("Ungültige Eingabe. Du bist verwirrt und kehrst nach Hause zurück.")
+
+elif choice1 == '2':
+    print("Du entscheidest dich umzudrehen und nach Hause zu gehen.")
+    print("Vielleicht nächstes Mal, wenn du mutiger bist!")
+
+else:
+    print("Ungültige Eingabe. Du bist unschlüssig und kehrst nach Hause zurück.")
