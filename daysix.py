@@ -23,6 +23,20 @@ choice = input("Gib die Nummer der Operation ein (1/2/3/4): ")
 num1 = float(input("Gib die erste Zahl ein: "))
 num2 = float(input("Gib die zweite Zahl ein: "))
 
+
+# Assigning values to variables
+name = "Alice"
+age = 30
+is_student = False
+height = 5.8
+
+# Displaying the values of variables
+print("Name:", name)
+print("Age:", age)
+print("Is Student:", is_student)
+print("Height:", height)
+
+
 if choice == '1':
     print(num1, "+", num2, "=", add(num1, num2))
 
