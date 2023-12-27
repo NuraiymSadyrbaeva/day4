@@ -60,7 +60,7 @@ my_func()
 #print("Глобальная переменная вне функции:", global_var)
 #Variable Exercises
 carname = "Volvo"
-
+#ok
 
 
 
